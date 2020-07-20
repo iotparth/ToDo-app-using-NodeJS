@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(#2b4d58,#81bd81);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+/* heading */
+#heading{
+    margin:10;
+    margin-bottom: 2px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+}
+/* main container */
+#main-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+    height: max-content;
+    margin-top: 120px;
+    /* border: 2px solid black; */
+    background-image: linear-gradient(45deg, #b5093d, #a1a1a1);
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #5a011c;
+}
+/* insert-section */
+#insert-section{
+    display: flex;
+    width: 90%;
+    background-image: linear-gradient(45deg , #1a7000, #b89a9a);
+    padding: 10px;
+    margin: 10px 10px 15px 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/* input-area */
+#insert-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/* input-box part */
+#input-box{
+    padding :3px;
+    width:85%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0.5px 0.5px #25040e;
+    font-size: 1rem;
+    font-family: sans-serif;
+    background-color: #b3bdae;
+}
+/* category area */
+#category{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* this is date box area */
+#date-box{
+    width:45%;
+    height: 10%;
+    display: flex;
+    margin-top: 15px;
+    background-color: #b3bdae;
+    border-radius: 5px;
+}
+/* the section box area */
+#sec-box{
+    width: 45%;
+    height:20%;
+    color:#25040e;
+    margin-top: 20px;
+    background-color:#b3bdae;
+    border-radius: 4px;
+}
+#date-text{
+    display: flex;
+    flex-direction: row;
+    margin: 24px 0 0 -120%;
+    font-size: 0.7rem;
+    font-family: sans-serif;
+}
+#date-text i{
+    font-size: 0.8rem;
+    margin-right: 3px;
+    color: rgb(90, 38, 0);
+}
+#category-text{
+    background: linear-gradient(45deg, #a8826c, #73b3e2);
+    padding: 2px;
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+/* list section */
+#task-list-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+/* this is the list bar */
+.tasks{
+    height: 10%;
+    padding: 3px 10px;
+    border: 1px solid black;
+    background-image: linear-gradient(45deg, #e8c6a4, #a8c3e2);
+    box-shadow: 1px 1px 1px 1px #27282c;
+    color: black;
+    display: flex;
+    margin: 0px 20px 0px -20px;
+    justify-content: space-evenly;
+}
+/* the details of task */
+.tasks .details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width: 90%;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+/* hover over list */
+.tasks:hover{
+    background-color:lightgrey;
+}
+/* the delete div */
+.tasks .delete{
+    width: 10%;
+    padding :2px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+a i{
+    color: #196297;
+}
+/* the checkbox div */
+.tasks #checkbx{
+        padding :2px;
+        text-align: center; 
+        margin-left: -10px; 
+        margin-top: 10px; 
+}
+/* the checkbox area */
+#check-box{
+    height: 20px;
+
+}
+/* the font inside details */
+.tasks p{
+    margin : 5px 0;
+    font-family: sans-serif;
+
+}
+
+/* common */
+#title{
+    color:rgb(19, 17, 17);
+    margin-bottom:5;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    margin:10px 0 10px;
+    font-weight: 500;
+}
+i{
+    font-size: 1.5rem;
+    color:black;
+}
+#file{
+    margin-top: 3px;
+}
+#button{
+    margin: -1px;
+    background:border-box;
+}
+
